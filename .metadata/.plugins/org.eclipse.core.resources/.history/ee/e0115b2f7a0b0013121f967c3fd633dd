@@ -1,0 +1,15 @@
+package br.iff.campos.pooa20131n.vagasfacil.webservices;
+
+import javax.ws.rs.Produces;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("/Cadidato")
+public class CandidatoResource {
+
+	@GET()
+	@Produces("text/plain")
+	public String sayHello() {
+	    return "Hello World!";
+	}
+}

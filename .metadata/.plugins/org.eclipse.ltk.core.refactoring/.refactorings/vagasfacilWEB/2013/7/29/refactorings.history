@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;vagasfacilweb/WebContent/candidato.xhtml&apos; to &apos;empresa.xhtml&apos;" description="Rename resource &apos;candidato.xhtml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/candidato.xhtml" name="empresa.xhtml" stamp="1374195781511" updateReferences="true"/>
+</session>

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"> 
+
+<h:head></h:head> 
+<body> 
+
+	<h:form id ="frmTeste">
+        <h:messages id="msgOK"/>
+       
+ 
+        <h3>Inserir Usuário</h3>
+        <h:panelGrid border = '1' columns="2" styleClass="panelGrid" rowClasses="panelFirstLine,panelNextLine" >
+            <h:outputLabel for="propuid" value="Codigo" />
+            <h:inputText id="propuid" value="#{usuarioweb.usuario.uidUsuario}" style=" width : 332px;"/>
+            <h:outputLabel for="propName" value="Nome" />
+            <h:inputText id="propName" value="#{usuarioweb.usuario.nome}" style=" width : 332px;"/>
+            <h:outputLabel for="propTelefone" value="Telefone" />
+            <h:inputText id="propTelefone" value="#{usuarioweb.usuario.telefone}" style=" width : 332px;"/>
+            <h:outputLabel for="propCPF" value="CPF" />
+            <h:inputText id="propCPF" value="#{usuarioweb.usuario.cpf}" style=" width : 332px;"/>
+            <h:outputLabel for="propEndereco" value="Endereco" />
+            <h:inputText id="propEndereco" value="#{usuarioweb.usuario.endereco}" style=" width : 332px;"/>
+         
+        </h:panelGrid>
+        <h:panelGrid columns="4">
+            <h:commandButton action="#{usuarioweb.salva()}" value="Salvar" />
+            <h:commandButton action="#{usuarioweb.busca()}" value="Busca" />
+            <h:commandButton action="#{usuarioweb.update()}" value="Update" />
+            <h:commandButton action="#{usuarioweb.delete()}" value="Excluir" />
+        </h:panelGrid>
+        <br/>
+        
+       
+        <br/>
+    </h:form> 
+
+</body> 
+</html>

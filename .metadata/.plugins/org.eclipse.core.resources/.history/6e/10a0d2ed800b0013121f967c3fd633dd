@@ -1,0 +1,42 @@
+package br.iff.campos.pooa20131n.vagasfacil.webservices;
+
+@Path("/Empresa")
+public class EmpresaResourse {
+	
+
+	
+
+		private EmpresaoPersistencia pempresa;
+
+		public EmpresaResource() {
+
+		try {
+			InitialContext ctx = new InitialContext();
+			pempresa = (EmpresaPersistencia) ctx
+			.lookup("java:global/vagasfacilEAR/vagasfacilEJB/CandidatoPersistencia!br.iff.campus.pooa20131n.vagasfacil.model.controller.CandidatoPersistencia");
+			} catch (NamingException ne) {
+			System.out.println("\n[MyRestService]NamingException: " + ne);
+			ne.printStackTrace();
+			}
+			}
+
+			@GET()
+			@Produces("text/plain")
+			public String sayHello() {
+			Date date = new Date();
+			return "Hello World! data agora ++++++++++++++++++++=> "
+			+ date.toString();
+			}
+
+			@GET
+			@Path("/{uid}")
+			@Produces(MediaType.APPLICATION_XML)
+			public Empresa getEmpresa(@PathParam("uid") String uid) {
+
+				return pempresa.find(uid);
+			}
+
+
+	}
+
+}

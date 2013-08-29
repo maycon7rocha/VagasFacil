@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:imobiliariaEAR" serverId="JBoss 7.1 Runtime Server1374192247090"/>
+  <module moduleId="org.eclipse.jst.jee.server:vagasfacilEAR" serverId="JBoss 7.1 Runtime Server1374192247090"/>
+  <module moduleId="org.eclipse.jst.jee.server:vagasfacilWEB" serverId="JBoss 7.1 Runtime Server1374192247090"/>
+  <module moduleId="org.eclipse.jst.jee.server:MinhaPoupancaejb" serverId="JBoss 5.1 Runtime Server1372033314463"/>
+  <module moduleId="org.eclipse.jst.jee.server:imobiliariaWEB" serverId="JBoss 7.1 Runtime Server1374192247090"/>
+  <module moduleId="org.eclipse.jst.jee.server:vagasfacilweb" serverId="JBoss 7.1 Runtime Server1374192247090"/>
+</modules>

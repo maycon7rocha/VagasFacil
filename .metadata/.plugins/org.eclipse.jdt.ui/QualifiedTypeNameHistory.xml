@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.entity.Candidato"/>
+<fullyQualifiedTypeName name="javax.swing.UIDefaults"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.entity.Usuario"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.entity.Vaga"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.controller.VagaPersistence"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.controller.EmpresaPersistence"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.controller.ProfissaoPersistence"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="model.controller.RendimentoPersistence"/>
+<fullyQualifiedTypeName name="model.entity.Rendimento"/>
+<fullyQualifiedTypeName name="javax.ejb.LocalBean"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.annotation.ManagedBean"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.web.controller.EmpresaWebController"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.entity.Profissao"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.controller.UsuarioPersistence"/>
+<fullyQualifiedTypeName name="br.iff.campos.pooa20131n.corretora.model.entity.Cliente"/>
+<fullyQualifiedTypeName name="br.iff.campos.pooa20131n.corretora.model.controller.ClienteControllerJPA"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="br.iff.campus.pooa20131n.vagasfacil.model.entity.Empresa"/>
+</qualifiedTypeNameHistroy>

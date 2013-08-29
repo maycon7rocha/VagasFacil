@@ -1,0 +1,8 @@
+package br.iff.campos.pooa20131n.vagasfacil.webservices;
+
+import javax.ws.rs.Produces;
+import javax.ws.rs.GET;
+
+@Path("/vagasfacilRESTApplication")
+public class CandidatoResource {
+}

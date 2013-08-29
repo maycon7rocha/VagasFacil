@@ -1,0 +1,4 @@
+package br.iff.campos.pooa20131n.vagasfacil.webservices;
+
+public class vagasfacilRESTApplication extends Application {
+}
